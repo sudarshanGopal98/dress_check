@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/magenta_5">
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nYour account does not exist\nPlease create an account!!\n"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/purple_3" />
+
+</LinearLayout>

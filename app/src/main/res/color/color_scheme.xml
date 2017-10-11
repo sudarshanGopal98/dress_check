@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Color Palette by Paletton.com
+ -->
+<selector>
+        <color id="primary-0" nr="0" rgb="4B2B5D" r="75" g="43" b="93" r0="0.294" g0="0.169" b0="0.365"/>
+        <color id="primary-1" nr="1" rgb="9775AA" r="151" g="117" b="170" r0="0.592" g0="0.459" b0="0.667"/>
+        <color id="primary-2" nr="2" rgb="7D668A" r="125" g="102" b="138" r0="0.49" g0="0.4" b0="0.541"/>
+        <color id="primary-3" nr="3" rgb="3D1255" r="61" g="18" b="85" r0="0.239" g0="0.071" b0="0.333"/>
+        <color id="primary-4" nr="4" rgb="260339" r="38" g="3" b="57" r0="0.149" g0="0.012" b0="0.224"/>
+</selector>

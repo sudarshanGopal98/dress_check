@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/magenta_5">
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nWhat to do next?\n"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/purple_3" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n - You can swipe up or down to look at the posts
+        \n\n - To comment on a post, type up a comment and tap post
+        \n\n - If you like a picture, tap the like button
+        \n\n - If you want to read comments from others, tap the picture
+        \n\n - To switch between the two post types, please press the switch on the top
+        \n\n"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="@color/purple_4" />
+
+</LinearLayout>

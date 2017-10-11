@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/magenta_5">
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nYou Can Post\n"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/purple_3" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" - A Picture of Shirt,Shoes, Ties and other apparels and ask questions about them\n\n - A Picture of yourself with your FBLA Attire and ask how you look in them"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="@color/purple_3" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nYou can also upload a picture from your gallery!\n"
+        android:id="@+id/textView7"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/purple_4" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nDont forget to ask a question or choose questions to ask after you take or upload a picture!\n"
+        android:id="@+id/textView8"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:background="@color/purple_5" />
+
+</LinearLayout>

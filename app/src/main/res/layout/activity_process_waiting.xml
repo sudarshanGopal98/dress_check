@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#ffffff"
+    tools:context=".splash.PostFeedSplash">
+
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="description"
+        android:id="@+id/descriptionHolder"
+        android:layout_gravity="center"
+        android:allowUndo="false"
+        android:textAlignment="gravity"
+        android:gravity="center|center_vertical"
+        android:background="@color/magenta_5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_6" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:progress="1" />
+
+</FrameLayout>

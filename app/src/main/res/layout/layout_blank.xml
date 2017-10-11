@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/magenta_5"
+    android:weightSum="1">
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvSummary" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginBottom="20dip" -->
+    <!-- android:layout_marginLeft="15dip" -->
+    <!-- android:layout_marginTop="5dp" -->
+    <!-- android:text="Not connected" /> -->
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/blankBar1"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.32"
+        android:indeterminate="false" />
+</LinearLayout>

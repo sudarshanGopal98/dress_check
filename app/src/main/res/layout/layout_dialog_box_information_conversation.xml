@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/magenta_5">
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nWhat can I here?\n"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/purple_3" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n - To start a conversation, please type a message and tap send
+        \n\n - A chain of mesages will appear above as you send a receive messages
+        \n\n - Your Messages Will be on the right and The Chatter's message will be on the left
+        \n\n - To exit, just press the back button
+        \n\n"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="@color/purple_4" />
+
+</LinearLayout>

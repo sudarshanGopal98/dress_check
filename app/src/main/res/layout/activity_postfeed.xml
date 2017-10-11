@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your Post Feed"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="#ffffff"
+        android:background="@color/purple_2"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_6"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true">
+
+        <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="General Fashion"
+            android:id="@+id/describer1"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textIsSelectable="false" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/switch1"
+            android:background="@color/purple_6"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:textOn="    "
+            android:textOff="    " />
+
+        <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Others&apos; Attire"
+            android:id="@+id/describer2"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            />
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Need Help !"
+        android:id="@+id/userHelper3"
+        android:background="#9679a6"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="387dp"
+        android:divider="#ffffff"
+        android:dividerHeight="25dp"
+        android:listSelector="@drawable/list_selector"
+        android:scrollIndicators="start|end"
+        android:descendantFocusability="beforeDescendants"
+        android:fastScrollEnabled="true"
+        android:scrollbars="none"
+        android:smoothScrollbar="false"
+        android:scrollingCache="false"
+        android:layout_weight="0.91"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_above="@+id/userHelper3" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nChoose Which Type Of Post You Want To See"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:background="@color/purple_4"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

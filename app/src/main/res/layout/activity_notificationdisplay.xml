@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33BBFFFF"
+    android:alpha="0.75">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/spacer1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/purple_2"
+        android:autoText="false" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="You Have Some View Requests!"
+        android:id="@+id/header1"
+        android:layout_below="@+id/spacer1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="@color/purple_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/spacer2"
+        android:background="@color/purple_2"
+        android:autoText="false"
+        android:layout_below="@+id/header1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notificationPostFeed"
+        android:layout_below="@+id/spacer2"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/spacer3"
+        android:choiceMode="none"
+        android:divider="#ffffff"
+        android:dividerHeight="25dp"
+        android:background="@color/magenta_5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/spacer3"
+        android:background="@color/purple_2"
+        android:autoText="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

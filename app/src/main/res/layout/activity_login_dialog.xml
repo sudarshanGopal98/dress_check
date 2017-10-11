@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.actities.LoginActivity"
+    android:background="@color/magenta_2">
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nCreate A New Account!\n"
+        android:id="@+id/header"
+        android:gravity="center"
+        android:autoText="false"
+        android:capitalize="words"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textSize="30dp"
+        android:background="@null"
+        android:textColor="@color/magenta_5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameText"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:textColor="@color/magenta_5"
+        android:layout_below="@+id/newusername"
+        android:layout_alignParentStart="true" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="New Password"
+        android:id="@+id/newpassword"
+        android:layout_below="@+id/usernameText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="30dp"
+        android:autoText="false"
+        android:background="@null"
+        android:textColor="@color/magenta_5" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordText"
+        android:layout_below="@+id/newpassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/newpassword"
+        android:layout_alignEnd="@+id/newpassword"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/magenta_5" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create My Account!"
+        android:id="@+id/createAccount"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passwordText"
+        android:background="@color/magenta_5"
+        android:textColor="#f2d0e4"
+        android:layout_marginTop="15dp" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nNew Username"
+        android:id="@+id/newusername"
+        android:gravity="center"
+        android:autoText="false"
+        android:capitalize="words"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textSize="30dp"
+        android:background="@null"
+        android:textColor="@color/magenta_5"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+</RelativeLayout>

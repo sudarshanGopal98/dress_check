@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="purple_6">#CDB4CF</color>
+    <color name="purple_5">#9775AA</color>
+    <color name="purple_4">#7D668A</color>
+    <color name="purple_3">#4B2B5D</color>
+    <color name="purple_2">#3D1255</color>
+    <color name="purple_1">#260339</color>
+
+    <color name="magenta_5">#ed0044</color>
+    <color name="magenta_4">#ce013c</color>
+    <color name="magenta_3">#9A002C</color>
+    <color name="magenta_2">#740021</color>
+    <color name="magenta_1">#34000F</color>
+
+    <color name="yellow">#FFD100</color>
+
+    <color name="faded_pink_light">#f9d695ac</color>
+    <color name="faded_pink_dark">#f9a34f6d</color>
+
+    <color name="white">#f9ffffff</color>
+
+
+
+    <color name="postShade_1">#fafafa</color>
+    <color name="postShade_2">#f5f5f5</color>
+    <color name="postShade_3">#f0f0f0</color>
+    <color name="postShade_4">#ebebeb</color>
+    <color name="postShade_5">#e6e6e6</color>
+
+
+
+
+
+</resources>

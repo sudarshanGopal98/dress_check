@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/magenta_5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postImageDisplay"
+        android:background="@color/magenta_3"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postQuestionHolder"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/magenta_5"
+        android:textAlignment="gravity"
+        android:text="Question Goes Here"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIKE IT!"
+            android:id="@+id/postButton"
+            android:layout_gravity="bottom"
+            android:textOn="UNLIKE IT"
+            android:textOff="LIKE IT!"
+            android:background="@color/purple_3"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:checked="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/newCommentText"
+            android:background="@color/magenta_5"
+            android:hint="Enter Your Comments and Press Post"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/postButton2"
+            android:layout_toStartOf="@+id/postButton2"
+            android:textSize="15sp"
+            android:layout_gravity="bottom"
+            android:layout_weight="4"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:id="@+id/postButton2"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/purple_3"
+            android:textSize="15sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>

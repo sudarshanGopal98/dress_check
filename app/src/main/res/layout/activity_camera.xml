@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<LinearLayout tools:context=".ClientMain"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/magenta_5">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dont Know What To Post?"
+        android:id="@+id/userHelper1"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/faded_pink_dark"
+        android:textSize="17sp"
+        android:textColor="@color/white" />
+
+    <SurfaceView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/surfaceView"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadImage"
+            android:src="@drawable/upload"
+            android:alpha="0.6"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clickPicture"
+            android:src="@drawable/camerabutton"
+            android:background="@null"
+            android:backgroundTintMode="multiply"
+            android:adjustViewBounds="false"
+            android:clickable="false"
+            android:alpha="0.9"
+            android:cropToPadding="false" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/switchButton"
+            android:src="@drawable/switchcamera"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:adjustViewBounds="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

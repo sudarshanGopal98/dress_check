@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/magenta_4"
+    tools:context="sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.activities.WelcomeActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/magenta_4"
+        android:layout_above="@+id/progressBarHelper">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:src="@drawable/logo"
+            android:layout_weight="2" />
+
+        <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome Username"
+            android:id="@+id/welcomeText"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textIsSelectable="false" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/conversationButton"
+                android:src="@drawable/conversations"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cameraButton"
+                android:src="@drawable/camera"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView11" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pastPostButton"
+                android:src="@drawable/pastposts"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/postFeedButton"
+                android:src="@drawable/postfeed"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView12" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/slideBar"
+        android:layout_gravity="center_horizontal|top"
+        android:max="100"
+        android:progress="1"
+        android:indeterminate="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tap The Bar Below To Log Out!"
+        android:id="@+id/progressBarHelper"
+        android:layout_gravity="center_horizontal|top"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_above="@+id/slideBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

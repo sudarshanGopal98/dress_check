@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/magenta_5"
+    tools:context="sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.activities.PictureDisplayActivity">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switchLayout"
+        android:layout_above="@+id/nextPageButton" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Press Next Now To Ask Your Own Question\nOr \nSwipe Left or Right for More Questions"
+        android:id="@+id/spacer4"
+        android:layout_gravity="center_horizontal|top"
+        android:textAlignment="center"
+        android:background="@color/magenta_4"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_below="@+id/spacer1"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_3"
+        android:id="@+id/switchLayout"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true">
+
+        <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="General\nFashion"
+            android:id="@+id/describer1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            android:layout_weight="0.33"
+            android:clickable="true"
+            />
+
+        <Switch
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:id="@+id/postSwitch"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:textOn="    "
+            android:textOff="    "
+            android:layout_weight="0.33" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="157dp"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Personal\nAttire"
+        android:id="@+id/describer2"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:enabled="false"
+        android:layout_weight="0.33"
+        android:clickable="true"/>
+
+</LinearLayout>
+
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceSmall"
+android:id="@+id/spacer1"
+    android:background="@color/magenta_4"
+    android:layout_alignTop="@+id/imageView"
+    android:layout_alignParentStart="true" />
+
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceSmall"
+android:id="@+id/spacer2"
+android:background="@color/magenta_4"
+        android:layout_below="@+id/spacer4"
+        android:layout_centerHorizontal="true" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Swipe Up or Down for More Filters!"
+        android:id="@+id/sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.CustomFontTextView4"
+        android:textSize="19sp"
+        android:textColor="#FFFFFF"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_below="@+id/spacer2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextPageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:background="#f0799b"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrowLeft2"
+        android:src="@drawable/arrowleft"
+        android:alpha="0"
+        android:layout_below="@+id/switchLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/spacer2"
+        android:layout_alignEnd="@+id/sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.CustomFontTextView4"
+        android:layout_marginEnd="124dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrowRight2"
+        android:src="@drawable/arrowright"
+        android:alpha="0"
+        android:layout_above="@+id/sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.CustomFontTextView4"
+        android:layout_below="@+id/switchLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.CustomFontTextView4"
+        android:layout_marginStart="126dp" />
+
+    <sudarshan_gopalakrishnan.fbla.tompkins.dresscheck.datatypes.view.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nChoose Which Type Of Post You Want To Make\n"
+        android:id="@+id/textView16"
+        android:textAlignment="center"
+        android:background="@color/purple_3"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
